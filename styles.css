@@ -515,20 +515,20 @@ a {
     border-radius: 50px;
     transition: background 0.3s;
     margin-top: 17px;
-    margin: left;
-    margin-right: 35%;
+    margin-right: 45%;
     user-select: none;
   -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
   outline: none;
 }
     .social-icons {
-    margin-right: 35%;
+    margin-right: 45%;
     background-color: transparent;
-    text-align: left;
     display: flex;
-    justify-content: left;
     gap: 18px; /* Jarak antar ikon */
 }
+    * {
+        user-select: none;
+    }
     .description {
     font-size: 0.93rem;
     text-align: left;
