@@ -490,7 +490,7 @@ a {
 @media only screen and (max-width: 380px) {
     .profile-pic {
     width: 45%;
-    border-radius: 45%;
+    border-radius: 50%;
     border: 3px solid #1febff;
     margin-bottom: 10px;
     margin-top: -60px;
@@ -516,13 +516,13 @@ a {
     transition: background 0.3s;
     margin-top: 17px;
     margin: left;
-    margin-right: 45%;
+    margin-right: 35%;
     user-select: none;
   -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
   outline: none;
 }
     .social-icons {
-    margin-right: 45%;
+    margin-right: 35%;
     background-color: transparent;
     text-align: left;
     display: flex;
@@ -530,7 +530,7 @@ a {
     gap: 18px; /* Jarak antar ikon */
 }
     .description {
-    font-size: 0.94rem;
+    font-size: 0.93rem;
     text-align: left;
     margin: 0px 0;
     padding: 0 20px;
