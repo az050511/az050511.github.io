@@ -487,9 +487,9 @@ a {
     align-items: left;
     user-select: none;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
 .profile h2 {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
     color: #1febff;
     margin-top: -25px;
     margin-bottom: -15px;
@@ -508,7 +508,7 @@ a {
     transition: background 0.3s;
     margin-top: 17px;
     margin: left;
-    margin-right: 48%;
+    margin-right: 47%;
     user-select: none;
   -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
   outline: none;
