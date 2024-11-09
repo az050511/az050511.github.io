@@ -488,8 +488,16 @@ a {
     user-select: none;
 }
 @media only screen and (max-width: 380px) {
+    .profile-pic {
+    width: 47%;
+    border-radius: 47%;
+    border: 3px solid #1febff;
+    margin-bottom: 10px;
+    margin-top: -60px;
+    pointer-events: none;
+}
 .profile h2 {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     color: #1febff;
     margin-top: -25px;
     margin-bottom: -15px;
@@ -498,7 +506,7 @@ a {
     user-select: none;
 }
     .cta-button {
-    padding: 5px 20px;
+    padding: 5px 15px;
     background: transparent;
     border: 3px solid #1febff;
     color: #1febff;
@@ -508,11 +516,20 @@ a {
     transition: background 0.3s;
     margin-top: 17px;
     margin: left;
-    margin-right: 47%;
+    margin-right: 50%;
     user-select: none;
   -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
   outline: none;
 }
+    .description {
+    font-size: 0.94rem;
+    text-align: left;
+    margin: 0px 0;
+    padding: 0 20px;
+    min-width: 150px;
+    color: #f0f0f0;
+    font-family: "Roboto Slab", serif;
+    }
 }
 .description {
     font-size: 1.1rem;
