@@ -487,7 +487,33 @@ a {
     align-items: left;
     user-select: none;
 }
-
+@media only screen and (max-width: 400px) {
+.profile h2 {
+    font-size: 1.4rem;
+    color: #1febff;
+    margin-top: -25px;
+    margin-bottom: -15px;
+    text-align: left;
+    align-items: left;
+    user-select: none;
+}
+    .cta-button {
+    padding: 5px 20px;
+    background: transparent;
+    border: 3px solid #1febff;
+    color: #1febff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s;
+    margin-top: 17px;
+    margin: left;
+    margin-right: 48%;
+    user-select: none;
+  -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
+  outline: none;
+}
+}
 .description {
     font-size: 1.1rem;
     text-align: left;
