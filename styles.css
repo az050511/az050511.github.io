@@ -489,8 +489,8 @@ a {
 }
 @media only screen and (max-width: 380px) {
     .profile-pic {
-    width: 47%;
-    border-radius: 47%;
+    width: 45%;
+    border-radius: 45%;
     border: 3px solid #1febff;
     margin-bottom: 10px;
     margin-top: -60px;
@@ -506,7 +506,7 @@ a {
     user-select: none;
 }
     .cta-button {
-    padding: 5px 15px;
+    padding: 3px 10px;
     background: transparent;
     border: 3px solid #1febff;
     color: #1febff;
@@ -516,10 +516,18 @@ a {
     transition: background 0.3s;
     margin-top: 17px;
     margin: left;
-    margin-right: 50%;
+    margin-right: 45%;
     user-select: none;
   -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight di perangkat mobile */
   outline: none;
+}
+    .social-icons {
+    margin-right: 45%;
+    background-color: transparent;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    gap: 18px; /* Jarak antar ikon */
 }
     .description {
     font-size: 0.94rem;
